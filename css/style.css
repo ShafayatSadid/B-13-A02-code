@@ -18,6 +18,8 @@ nav{
     align-items: center;
     padding-top: 30px;
     padding-bottom: 30px;
+
+    border-bottom: 1px solid rgba(65, 37, 103, 1);
 }
 
 .tech{
@@ -60,6 +62,92 @@ nav{
     display: none;
 }
 
+.banner{
+    background-image: url('../images/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 101px;
+    width: 100%;
+    height: 760px;
+    text-align: center;
+}
+
+.banner-image{
+    position: relative;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/hero-circle.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.banner-content h2{
+    font-size: 3.75rem;
+    font-weight: 800;
+    line-height: 75px;
+    color: #FFFFFF;
+    margin-top: 40px;
+
+}
+
+.banner-content p{
+    font-size: 1rem;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 8px;
+}
+
+
+.button2{
+    padding: 12px 20px;
+    color: #FFFFFF;
+    background: linear-gradient(47.64deg, #F7E93F, #FB09B4, #9100F8);
+    border: none;
+    border-radius: 100000px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.button3{
+    padding: 12px 20px;
+    color: #00FF88;
+    background: transparent;
+    border: 1px solid #00FF88;
+    border-radius: 100000px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.banner-button-box{
+    margin-top: 24px;
+    display: flex;
+    gap: 8px;
+}
+
+.bag{
+    padding: 8px 16px;
+    color: #1A0B2E;
+    background-color: #00FF88;
+    border: none;
+    border-radius: 100000px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    
+
+}
+
 @media screen and (max-width: 576px) {
     .menu{
         display: none;
@@ -79,5 +167,25 @@ nav{
         justify-content: space-between;
         padding-left: 25px;
         padding-right: 25px;
+    }
+
+    .banner{
+        padding-top: 20px;
+        height: 466px;
+        width: 100%;
+        /* padding: 20px; */
+    }
+
+    .banner-image{
+        width: 200px;
+        height: 200px;
+    }
+
+    .banner-image img{
+        width: 50px;
+    }
+
+    .bag{
+        right: -17px;
     }
 }
