@@ -268,6 +268,73 @@ nav{
     grid-row: span 1;
 }
 
+.feature_and_meet{
+    background-color: #1A0B2E;
+    padding: 120px 200px;
+}
+
+.feature{
+    text-align: center;
+}
+
+.feature h2{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+
+.episode-card h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+}
+
+.episode-card p{
+    font-size: 1rem;
+    color: #ffffff85;
+    margin-bottom: 12px;
+}
+.episode{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.episode-card{
+    max-width: 380px;
+    text-align: start;
+    background-color: #250D44;
+    border-radius: 24px;
+}
+
+.frame{
+    border-radius: 24px ;
+}
+.media-content{
+    padding: 24px;
+}
+
+.clock{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 24px;
+}
+
+.button-clock{
+    border: none;
+    background: transparent;
+    color: #00FF88;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.main-frame{
+    border-radius: 24px 24px 0 0;
+}
 
 
 @media screen and (max-width: 576px) {
@@ -316,6 +383,35 @@ nav{
     }
 
     .choose h2{
+        font-size: 2rem;
+    }
+
+    .choose{
+        padding: 120px 20px;
+    }
+
+    .card{
+        padding: 24px;
+    }
+
+    .layout{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .normal, .big1, .big2{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .episode{
+        flex-direction: column;
+    }
+
+    .feature_and_meet{
+        padding: 120px 20px;
+    }
+
+    .feature h2{
         font-size: 2rem;
     }
 }
