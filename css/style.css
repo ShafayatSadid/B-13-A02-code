@@ -393,6 +393,63 @@ nav{
     border-radius: 40px;
 }
 
+footer{
+    background-image: url('../images/footer-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 200px;
+    text-align: center;
+}
+
+.tech2{
+    font-size: 4rem;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+
+.wave2{
+    font-size: 4rem;
+    font-weight: 800;
+    background:linear-gradient(to top, #F7E93F, #FB09B4, #9100F8);
+    background-clip: text;
+   -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+.footer-icon{
+    font-size: 1rem;
+    color: #ffffffb4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 34px;
+}
+
+.jhamela{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5px;
+}
+
+.jhamela img{
+    width: 24px;
+}
+/* .footer-icon, .copy p */
+.copy p{
+    font-size: 1rem;
+    color: #ffffff89;
+    margin-top: 34px;
+}
+
+
+
 
 @media screen and (max-width: 576px) {
     .menu{
@@ -487,4 +544,13 @@ nav{
     .icon-box{
         justify-content: center;
     }
+
+    footer{
+        padding: 40px 20px;
+    }
+
+    .footer-icon, .copy p{
+        margin-top: 24px;
+    }
+
 }
