@@ -143,10 +143,59 @@ nav{
     box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);
     position: absolute;
     top: 5px;
-    right: 30px;
-    
+    right: 30px; 
+}
+
+
+.about{
+    background-color:  rgba(26, 11, 46, 1);
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.about-content h2{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.about-content p{
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0 auto;
+    color:rgba(255, 255, 255, 1);  
+    line-height: 20px;
+    margin-top: 16px;
+    max-width: 1200px;
 
 }
+
+
+.about-card h3{
+    color: #00FF88;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 58px;
+    margin-bottom: 16px;
+}
+
+.about-card p{
+    color: #FFFFFF;
+    font-size: 1rem;
+    line-height: 20px;
+}
+
+.about-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 160px;
+}
+
+
 
 @media screen and (max-width: 576px) {
     .menu{
@@ -172,8 +221,8 @@ nav{
     .banner{
         padding-top: 20px;
         height: 466px;
-        width: 100%;
-        /* padding: 20px; */
+        max-width: 440px;
+
     }
 
     .banner-image{
@@ -187,5 +236,9 @@ nav{
 
     .bag{
         right: -17px;
+    }
+
+    .about-card{
+        gap: 40px;
     }
 }
