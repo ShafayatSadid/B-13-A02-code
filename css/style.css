@@ -101,7 +101,7 @@ nav{
 .banner-content p{
     font-size: 1rem;
     line-height: 19px;
-    color: rgba(255, 255, 255, 0.536);
+    color: rgba(255, 255, 255, 0.77);
     margin-top: 8px;
 }
 
@@ -165,7 +165,7 @@ nav{
     font-size: 1rem;
     font-weight: 400;
     margin: 0 auto;
-    color:rgba(255, 255, 255, 0.404);  
+    color:rgba(255, 255, 255, 0.674);  
     line-height: 20px;
     margin-top: 16px;
     max-width: 1200px;
@@ -182,7 +182,7 @@ nav{
 }
 
 .about-card p{
-    color: #ffffff7d;
+    color: #ffffffb3;
     font-size: 1rem;
     line-height: 20px;
 }
@@ -224,7 +224,7 @@ nav{
 
 .card p{
     font-size: 1rem;
-    color:rgba(255, 255, 255, 0.395); 
+    color:rgba(255, 255, 255, 0.706); 
     margin-top: 16px;
 }
 
@@ -293,7 +293,7 @@ nav{
 
 .episode-card p{
     font-size: 1rem;
-    color: #ffffff85;
+    color: #ffffff9d;
     margin-bottom: 12px;
 }
 .episode{
@@ -353,7 +353,7 @@ nav{
 
 .meet-content p{
     font-size: 1rem;
-    color: #ffffff87;
+    color: #ffffffa5;
     margin-bottom: 16px;
 }
 
@@ -444,7 +444,7 @@ footer{
 /* .footer-icon, .copy p */
 .copy p{
     font-size: 1rem;
-    color: #ffffff89;
+    color: #ffffffb2;
     margin-top: 34px;
 }
 /* property name | duration | easing function | delay */
@@ -510,14 +510,16 @@ footer{
 
     .about-card{
         gap: 40px;
+        margin-top: 80px;
     }
 
-    .choose h2, .meet h2{
-        font-size: 2rem;
+    
+    .choose h2, .meet h2, .about-content h2{
+        font-size: 2.5rem;
     }
 
     .choose{
-        padding: 120px 20px;
+        padding: 60px 20px;
     }
 
     .card{
@@ -542,7 +544,7 @@ footer{
     }
 
     .feature h2{
-        font-size: 2rem;
+        font-size: 2.4rem;
     }
 
     .meet-card{
